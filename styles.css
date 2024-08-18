@@ -220,8 +220,8 @@ iframe {
         font-size: 75%;
     }
 
-    .container {
-        padding: 0 1rem;
+    .container:not(.top-bar) {
+        padding: 0 0.5rem;
     }
 
     #logo {
