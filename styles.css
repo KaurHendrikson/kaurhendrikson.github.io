@@ -13,6 +13,7 @@ body {
     background-position: center center;
     background-attachment: fixed;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -48,6 +49,15 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-content: center;
+}
+
+.container.reverse {
+    flex-direction: column-reverse;
+}
+
+.container.horizontal.reverse {
+    flex-direction: row-reverse;
 }
 
 .container.horizontal {
@@ -63,7 +73,7 @@ a {
 }
 
 .half-screen-height {
-    height: 75vh;
+    min-height: 75vh;
     scroll-margin-top: 10vh;
 }
 
@@ -72,9 +82,18 @@ img {
     height: auto;
 }
 
+.min-width-10em {
+    min-width: 10em;
+}
+
+.max-width-15em {
+    max-width: 15em;
+}
+
 .min-width-20em {
     min-width: 20em;
 }
+
 .social-link {
     /* White circle outline around social-icon */
     display: flex;
@@ -123,7 +142,6 @@ img {
     margin: 1rem;
 }
 
-/* Flex 1-5part */
 .container .f1 {
     flex: 1;
 }
@@ -189,6 +207,38 @@ a.btn {
     animation: fadeOut 1s linear infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
+}
+
+iframe {
+    height: calc(760px / 1.78);
+    width: 760px;
+}
+
+/* Mobile */
+@media (max-width: 800px) {
+    body {
+        font-size: 75%;
+    }
+
+    .container {
+        padding: 0 1rem;
+    }
+
+    #logo {
+        width: 7rem;
+    }
+
+    iframe {
+        height: calc(560px / 1.78);
+        width: 560px;
+    }
+}
+
+@media (max-width: 600px) {
+    iframe {
+        height: calc(360px / 1.78);
+        width: 360px;
+    }
 }
 
 @keyframes fadeOut {
