@@ -2,6 +2,12 @@
     z-index: 1;
 }
 
+/* Global variable for transition animation speeds */
+:root {
+    --btn-anim-speed: 0.15s;
+    --btn-anim-size: 1.05;
+}
+
 html,
 body {
     margin: 0;
@@ -121,17 +127,17 @@ img {
     border: 1.5px solid #ffffffe1;
     padding: 1rem;
     margin: 0.5rem;
+    transition: transform var(--btn-anim-speed);
 }
 
 .social-icon {
     max-height: 2em;
     filter: invert(94%) sepia(0%) saturate(0%) hue-rotate(301deg)
         brightness(106%) contrast(107%);
-    transition: all 0.25s;
 }
 
-.social-link:hover .social-icon {
-    transform: scale(1.1);
+.social-link:hover {
+    transform: scale(var(--btn-anim-size));
 }
 
 #top-bar {
@@ -142,6 +148,13 @@ img {
     width: 100%;
     z-index: 1000;
     background-color: #00000030;
+    transition: background-color var(--btn-anim-speed);
+    /* Blur background */
+    backdrop-filter: blur(3px);
+}
+
+#top-bar:hover {
+    background-color: #00000080;
 }
 
 .rounded {
@@ -183,6 +196,11 @@ img {
 #logo {
     width: 10rem;
     height: auto;
+    transition: transform var(--btn-anim-speed);
+}
+
+#logo:hover {
+    transform: scale(var(--btn-anim-size));
 }
 
 a {
@@ -205,6 +223,12 @@ a.btn {
     cursor: pointer;
     font-size: 1.5em;
     text-shadow: 1px 1px 1px #00000030;
+    transition: transform var(--btn-anim-speed);
+}
+
+a.btn:hover {
+    text-decoration: none;
+    transform: scale(var(--btn-anim-size));
 }
 
 #scroll-cue {
@@ -244,7 +268,9 @@ lite-vimeo.ltv-activated {
     }
 
     .container:not(#top-bar) {
-        padding: 0 0.5rem;
+        /* Not to overwrite the padding bottom */
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
 
     #logo {
