@@ -34,6 +34,7 @@ body {
     height: 100%;
     z-index: 0;
     filter: blur(3px);
+    opacity: 0.75;
     background-image: url('./public/background.webp');
     background-repeat: no-repeat;
     background-size: cover;
