@@ -228,9 +228,13 @@ a.btn {
     margin-left: -0.25rem;
 }
 
-iframe {
+lite-vimeo {
     height: calc(760px / 1.78);
     width: 760px;
+}
+
+lite-vimeo.ltv-activated {
+    background-image: none !important;
 }
 
 /* Mobile */
@@ -247,14 +251,14 @@ iframe {
         width: 7rem;
     }
 
-    iframe {
+    lite-vimeo {
         height: calc(560px / 1.78);
         width: 560px;
     }
 }
 
 @media (max-width: 600px) {
-    iframe {
+    lite-vimeo {
         height: calc(360px / 1.78);
         width: 360px;
     }
