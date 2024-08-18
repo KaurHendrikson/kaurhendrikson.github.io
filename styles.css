@@ -86,9 +86,13 @@ a {
     height: 100vh;
 }
 
-.section {
+.section:not(.one-screen-height) {
     min-height: 50vh;
     scroll-margin-top: 10vh;
+}
+
+.section {
+    padding-bottom: 2rem;
 }
 
 img {
@@ -130,7 +134,7 @@ img {
     transform: scale(1.1);
 }
 
-.top-bar {
+#top-bar {
     /* Fixed to the top, full width */
     position: fixed;
     top: 0;
