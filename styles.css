@@ -207,6 +207,7 @@ a.btn {
     animation: fadeOut 1s linear infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
+    margin-left: -0.25rem;
 }
 
 iframe {
