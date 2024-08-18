@@ -94,7 +94,7 @@ a {
 
 .section:not(.one-screen-height) {
     min-height: 50vh;
-    scroll-margin-top: 10vh;
+    scroll-margin-top: 20vh;
 }
 
 .section {
