@@ -92,7 +92,7 @@ a {
 }
 
 .section {
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
 }
 
 img {
@@ -239,7 +239,7 @@ iframe {
         font-size: 75%;
     }
 
-    .container:not(.top-bar) {
+    .container:not(#top-bar) {
         padding: 0 0.5rem;
     }
 
