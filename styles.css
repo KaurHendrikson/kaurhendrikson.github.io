@@ -94,12 +94,11 @@ a {
 }
 
 .section:not(.one-screen-height) {
-    min-height: 50vh;
     scroll-margin-top: 20vh;
 }
 
 .section {
-    padding-bottom: 4rem;
+    padding-bottom: 8rem;
 }
 
 img {
