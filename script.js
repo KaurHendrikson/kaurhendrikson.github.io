@@ -1,5 +1,12 @@
 // Hidden by default if JS is disabled
-document.getElementById('scroll-cue').style.display = 'block';
+scrollCue = document.getElementById('scroll-cue');
+scrollCue.style.display = 'block';
+scrollCue.addEventListener('click', () => {
+    // Scroll to the first section (reel)
+    document.querySelector('#reel').scrollIntoView({
+        behavior: 'smooth',
+    });
+});
 
 window.addEventListener(
     'scroll',

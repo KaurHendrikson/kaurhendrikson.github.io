@@ -240,6 +240,8 @@ a.btn:hover {
     color: #ffffff50;
     bottom: 2rem;
     left: 50%;
+    z-index: 2;
+    cursor: pointer;
     transform: translateX(-50%);
 
     animation: bounceDown 2s infinite;
