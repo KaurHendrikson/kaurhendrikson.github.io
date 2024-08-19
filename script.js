@@ -11,11 +11,35 @@ scrollCue.addEventListener('click', () => {
 window.addEventListener(
     'scroll',
     () => {
+        // Update the scroll variable in the CSS
         const scroll = Math.min(
             (window.scrollY || window.pageYOffset) / 100,
             0.999
         );
         document.body.style.setProperty('--scroll', scroll);
+
+        // Update the active link in the navbar
+        const sections = document.querySelectorAll('.section');
+        const links = document.querySelectorAll('#top-bar a.m05.f1');
+
+        let currentSection = '';
+
+        sections.forEach((section) => {
+            const sectionTop = section.offsetTop;
+            if (scrollY >= sectionTop - window.innerHeight * 0.4) {
+                // Adjust this value as needed
+                currentSection = section.getAttribute('id');
+            }
+        });
+
+        console.log(currentSection);
+
+        links.forEach((link) => {
+            link.classList.remove('active');
+            if (link.getAttribute('href').substring(1) === currentSection) {
+                link.classList.add('active');
+            }
+        });
     },
     false
 );

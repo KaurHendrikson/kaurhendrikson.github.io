@@ -206,11 +206,27 @@ img {
 a {
     color: #ffffffe1;
     text-decoration: none;
+    position: relative;
 }
 
-a:hover {
+/* Fade in */
+a:not(.btn)::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #ffffffe1;
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms;
+}
+
+a:not(.btn).active::after,
+a:not(.btn):hover::after {
     /* Underline */
-    text-decoration: underline;
+    opacity: 1;
+    transform: translate3d(0, 0.2em, 0);
 }
 
 a.btn {
@@ -252,6 +268,12 @@ a.btn:hover {
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
     margin-left: -0.25rem;
+}
+
+#contact {
+    scroll-margin-top: 0;
+    /* Extra space after contact */
+    height: 75vh;
 }
 
 lite-vimeo {
