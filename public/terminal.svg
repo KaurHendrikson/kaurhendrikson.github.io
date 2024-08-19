@@ -1,15 +1,15 @@
 <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
-	<title>New Project</title>
+	<title>Terminal</title>
 	<style>
 		tspan { white-space:pre } 
 		.s0 { fill: #28292e } 
 		.s1 { fill: #1c1c1c } 
-		.t2 { font-size: 40px;fill: #dadada;font-weight: 400;font-family: 'Roboto', sans-serif } 
-        .t6 { fill: #c4c4c4 }
-		.s3 { fill: #c33535 } 
-		.s4 { fill: #ddc516 } 
-		.s5 { fill: #4b973e }
-
+		.t2 { font-size: 40px;fill: #ffffff;font-weight: 400;font-family: 'Roboto', sans-serif } 
+		.t3 { font-size: 40px;fill: #c4c4c4;font-weight: 400;font-family: 'Roboto', sans-serif } 
+		.s4 { fill: #4b973e } 
+		.s5 { fill: #ddc516 } 
+		.s6 { fill: #c33535 } 
+        
         @keyframes popIn1 {
             0% {
                 opacity: 0;
@@ -149,11 +149,11 @@
 		<tspan x="0" y="0" class="t2">C</tspan><tspan  y="0" class="t2">h</tspan><tspan  y="0" class="t2">e</tspan><tspan  y="0" class="t2">c</tspan><tspan  y="0" class="t2">k</tspan><tspan  y="0" class="t2">i</tspan><tspan  y="0" class="t2">n</tspan><tspan  y="0" class="t2">g</tspan><tspan  y="0" class="t2"> </tspan><tspan  y="0" class="t2">w</tspan><tspan  y="0" class="t2">a</tspan><tspan  y="0" class="t2">t</tspan><tspan  y="0" class="t2">c</tspan><tspan  y="0" class="t2">h</tspan><tspan  y="0" class="t2"> </tspan><tspan  y="0" class="t2">f</tspan><tspan  y="0" class="t2">o</tspan><tspan  y="0" class="t2">l</tspan><tspan  y="0" class="t2">d</tspan><tspan  y="0" class="t2">e</tspan><tspan  y="0" class="t2">r</tspan><tspan  y="0" class="t2">s</tspan><tspan  y="0" class="t2">.</tspan><tspan  y="0" class="t2">.</tspan><tspan  y="0" class="t2">.</tspan><tspan  y="0" class="t2">
 </tspan>
 	</text>
-	<text id="Title" style="transform: matrix(1,0,0,1,25,52)" >
-		<tspan x="0" y="0" class="t2 t6">V</tspan><tspan  y="0" class="t2 t6">F</tspan><tspan  y="0" class="t2 t6">X</tspan><tspan  y="0" class="t2 t6">_</tspan><tspan  y="0" class="t2 t6">A</tspan><tspan  y="0" class="t2 t6">u</tspan><tspan  y="0" class="t2 t6">t</tspan><tspan  y="0" class="t2 t6">o</tspan><tspan  y="0" class="t2 t6">m</tspan><tspan  y="0" class="t2 t6">a</tspan><tspan  y="0" class="t2 t6">t</tspan><tspan  y="0" class="t2 t6">i</tspan><tspan  y="0" class="t2 t6">o</tspan><tspan  y="0" class="t2 t6">n</tspan><tspan  y="0" class="t2 t6">.</tspan><tspan  y="0" class="t2 t6">p</tspan><tspan  y="0" class="t2 t6">y
+	<text id="Title" style="transform: matrix(1,0,0,1,640,52)" >
+		<tspan x="-204" y="0" class="t3">V</tspan><tspan  y="0" class="t3">F</tspan><tspan  y="0" class="t3">X</tspan><tspan  y="0" class="t3">_</tspan><tspan  y="0" class="t3">A</tspan><tspan  y="0" class="t3">u</tspan><tspan  y="0" class="t3">t</tspan><tspan  y="0" class="t3">o</tspan><tspan  y="0" class="t3">m</tspan><tspan  y="0" class="t3">a</tspan><tspan  y="0" class="t3">t</tspan><tspan  y="0" class="t3">i</tspan><tspan  y="0" class="t3">o</tspan><tspan  y="0" class="t3">n</tspan><tspan  y="0" class="t3">.</tspan><tspan  y="0" class="t3">p</tspan><tspan  y="0" class="t3">y
 </tspan>
 	</text>
-	<path id="Red" class="s3" d="m1239 55c-10 0-18-8-18-18 0-10 8-18 18-18 10 0 18 8 18 18 0 10-8 18-18 18z"/>
-	<path id="Yellow" class="s4" d="m1189 55c-10 0-18-8-18-18 0-10 8-18 18-18 10 0 18 8 18 18 0 10-8 18-18 18z"/>
-	<path id="Green" class="s5" d="m1138 55c-10 0-18-8-18-18 0-10 8-18 18-18 10 0 18 8 18 18 0 10-8 18-18 18z"/>
+	<path id="Green" class="s4" d="m123 49.8c-6.9 0-12.4-5.5-12.4-12.4 0-6.9 5.5-12.4 12.4-12.4 6.8 0 12.4 5.5 12.4 12.4 0 6.9-5.6 12.4-12.4 12.4z"/>
+	<path id="Yellow" class="s5" d="m81.5 49.8c-6.8 0-12.4-5.5-12.4-12.4 0-6.9 5.6-12.4 12.4-12.4 6.9 0 12.4 5.5 12.4 12.4 0 6.9-5.5 12.4-12.4 12.4z"/>
+	<path id="Red" class="s6" d="m39.4 49.8c-6.9 0-12.4-5.5-12.4-12.4 0-6.9 5.5-12.4 12.4-12.4 6.9 0 12.4 5.5 12.4 12.4 0 6.9-5.5 12.4-12.4 12.4z"/>
 </svg>
