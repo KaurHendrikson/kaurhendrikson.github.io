@@ -2,8 +2,8 @@
 scrollCue = document.getElementById('scroll-cue');
 scrollCue.style.display = 'block';
 scrollCue.addEventListener('click', () => {
-    // Scroll to the first section (reel)
-    document.querySelector('#reel').scrollIntoView({
+    // Scroll to the first section (dctls)
+    document.querySelector('#dctls').scrollIntoView({
         behavior: 'smooth',
     });
 });
