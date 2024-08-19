@@ -1,0 +1,159 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+	<title>New Project</title>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: #28292e } 
+		.s1 { fill: #1c1c1c } 
+		.t2 { font-size: 40px;fill: #dadada;font-weight: 400;font-family: 'Roboto', sans-serif } 
+        .t6 { fill: #c4c4c4 }
+		.s3 { fill: #c33535 } 
+		.s4 { fill: #ddc516 } 
+		.s5 { fill: #4b973e }
+
+        @keyframes popIn1 {
+            0% {
+                opacity: 0;
+            }
+            0.1% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes popIn2 {
+            0% {
+                opacity: 0;
+            }
+            19.9% {
+                opacity: 0;
+            }
+            20% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes popIn3 {
+            0% {
+                opacity: 0;
+            }
+            24.9% {
+                opacity: 0;
+            }
+            25% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes popIn4 {
+            0% {
+                opacity: 0;
+            }
+            49.9% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes popIn5 {
+            0% {
+                opacity: 0;
+            }
+            59.9% {
+                opacity: 0;
+            }
+            60% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes popIn6 {
+            0% {
+                opacity: 0;
+            }
+            79.9% {
+                opacity: 0;
+            }
+            80% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+        #Line1 {
+            animation: popIn1 10s forwards linear infinite;
+        }
+        #Line2 {
+            animation: popIn2 10s forwards linear infinite;
+        }
+        #Line3 {
+            animation: popIn3 10s forwards linear infinite;
+        }
+        #Line4 {
+            animation: popIn4 10s forwards linear infinite;
+        }
+        #Line5 {
+            animation: popIn5 10s forwards linear infinite;
+        }
+        #Line6 {
+            animation: popIn6 10s forwards linear infinite;
+        }
+        #Line7 {
+            animation: popIn6 10s forwards linear infinite;
+        }
+	</style>
+	<path id="Window" class="s0" d="m30 0h1220c16.6 0 30 13.4 30 30v660c0 16.6-13.4 30-30 30h-1220c-16.6 0-30-13.4-30-30v-660c0-16.6 13.4-30 30-30z"/>
+	<path id="Terminal" class="s1" d="m1272 75v615c0 11.6-9.4 21-21 21h-1221c-11.6 0-21-9.4-21-21v-615z"/>
+	<text id="Line7" style="transform: matrix(1,0,0,1,18,555)" >
+		<tspan x="0" y="0" class="t2">P</tspan><tspan  y="0" class="t2">r</tspan><tspan  y="0" class="t2">e</tspan><tspan  y="0" class="t2">s</tspan><tspan  y="0" class="t2">s</tspan><tspan  y="0" class="t2"> </tspan><tspan  y="0" class="t2">E</tspan><tspan  y="0" class="t2">n</tspan><tspan  y="0" class="t2">t</tspan><tspan  y="0" class="t2">e</tspan><tspan  y="0" class="t2">r</tspan><tspan  y="0" class="t2"> </tspan><tspan  y="0" class="t2">t</tspan><tspan  y="0" class="t2">o</tspan><tspan  y="0" class="t2"> </tspan><tspan  y="0" class="t2">e</tspan><tspan  y="0" class="t2">x</tspan><tspan  y="0" class="t2">i</tspan><tspan  y="0" class="t2">t</tspan><tspan  y="0" class="t2">.</tspan><tspan  y="0" class="t2">.</tspan><tspan  y="0" class="t2">.
+</tspan>
+	</text>
+	<text id="Line6" style="transform: matrix(1,0,0,1,18,494)" >
+		<tspan x="0" y="0" class="t2">2</tspan><tspan  y="0" class="t2">7</tspan><tspan  y="0" class="t2"> </tspan><tspan  y="0" class="t2">n</tspan><tspan  y="0" class="t2">e</tspan><tspan  y="0" class="t2">w</tspan><tspan  y="0" class="t2"> </tspan><tspan  y="0" class="t2">v</tspan><tspan  y="0" class="t2">e</tspan><tspan  y="0" class="t2">r</tspan><tspan  y="0" class="t2">s</tspan><tspan  y="0" class="t2">i</tspan><tspan  y="0" class="t2">o</tspan><tspan  y="0" class="t2">n</tspan><tspan  y="0" class="t2">s</tspan><tspan  y="0" class="t2"> </tspan><tspan  y="0" class="t2">a</tspan><tspan  y="0" class="t2">d</tspan><tspan  y="0" class="t2">d</tspan><tspan  y="0" class="t2">e</tspan><tspan  y="0" class="t2">d</tspan><tspan  y="0" class="t2"> </tspan><tspan  y="0" class="t2">s</tspan><tspan  y="0" class="t2">u</tspan><tspan  y="0" class="t2">c</tspan><tspan  y="0" class="t2">c</tspan><tspan  y="0" class="t2">e</tspan><tspan  y="0" class="t2">s</tspan><tspan  y="0" class="t2">s</tspan><tspan  y="0" class="t2">f</tspan><tspan  y="0" class="t2">u</tspan><tspan  y="0" class="t2">l</tspan><tspan  y="0" class="t2">l</tspan><tspan  y="0" class="t2">y</tspan><tspan  y="0" class="t2">!
+</tspan>
+	</text>
+	<text id="Line5" style="transform: matrix(1,0,0,1,18,372)" >
+		<tspan x="0" y="0" class="t2">A</tspan><tspan  y="0" class="t2">d</tspan><tspan  y="0" class="t2">d</tspan><tspan  y="0" class="t2">i</tspan><tspan  y="0" class="t2">n</tspan><tspan  y="0" class="t2">g</tspan><tspan  y="0" class="t2"> </tspan><tspan  y="0" class="t2">n</tspan><tspan  y="0" class="t2">e</tspan><tspan  y="0" class="t2">w</tspan><tspan  y="0" class="t2"> </tspan><tspan  y="0" class="t2">v</tspan><tspan  y="0" class="t2">e</tspan><tspan  y="0" class="t2">r</tspan><tspan  y="0" class="t2">s</tspan><tspan  y="0" class="t2">i</tspan><tspan  y="0" class="t2">o</tspan><tspan  y="0" class="t2">n</tspan><tspan  y="0" class="t2">s</tspan><tspan  y="0" class="t2"> </tspan><tspan  y="0" class="t2">a</tspan><tspan  y="0" class="t2">b</tspan><tspan  y="0" class="t2">o</tspan><tspan  y="0" class="t2">v</tspan><tspan  y="0" class="t2">e</tspan><tspan  y="0" class="t2"> </tspan><tspan  y="0" class="t2">e</tspan><tspan  y="0" class="t2">x</tspan><tspan  y="0" class="t2">i</tspan><tspan  y="0" class="t2">s</tspan><tspan  y="0" class="t2">t</tspan><tspan  y="0" class="t2">i</tspan><tspan  y="0" class="t2">n</tspan><tspan  y="0" class="t2">g</tspan><tspan  y="0" class="t2"> </tspan><tspan  y="0" class="t2">c</tspan><tspan  y="0" class="t2">l</tspan><tspan  y="0" class="t2">i</tspan><tspan  y="0" class="t2">p</tspan><tspan  y="0" class="t2">s</tspan><tspan  y="0" class="t2">.</tspan><tspan  y="0" class="t2">.</tspan><tspan  y="0" class="t2">.</tspan><tspan  y="0" class="t2">
+</tspan>
+	</text>
+	<text id="Line4" style="transform: matrix(1,0,0,1,18,310)" >
+		<tspan x="0" y="0" class="t2">I</tspan><tspan  y="0" class="t2">m</tspan><tspan  y="0" class="t2">p</tspan><tspan  y="0" class="t2">o</tspan><tspan  y="0" class="t2">r</tspan><tspan  y="0" class="t2">t</tspan><tspan  y="0" class="t2">i</tspan><tspan  y="0" class="t2">n</tspan><tspan  y="0" class="t2">g</tspan><tspan  y="0" class="t2"> </tspan><tspan  y="0" class="t2">c</tspan><tspan  y="0" class="t2">l</tspan><tspan  y="0" class="t2">i</tspan><tspan  y="0" class="t2">p</tspan><tspan  y="0" class="t2">s</tspan><tspan  y="0" class="t2"> </tspan><tspan  y="0" class="t2">t</tspan><tspan  y="0" class="t2">o</tspan><tspan  y="0" class="t2"> </tspan><tspan  y="0" class="t2">D</tspan><tspan  y="0" class="t2">a</tspan><tspan  y="0" class="t2">V</tspan><tspan  y="0" class="t2">i</tspan><tspan  y="0" class="t2">n</tspan><tspan  y="0" class="t2">c</tspan><tspan  y="0" class="t2">i</tspan><tspan  y="0" class="t2"> </tspan><tspan  y="0" class="t2">R</tspan><tspan  y="0" class="t2">e</tspan><tspan  y="0" class="t2">s</tspan><tspan  y="0" class="t2">o</tspan><tspan  y="0" class="t2">l</tspan><tspan  y="0" class="t2">v</tspan><tspan  y="0" class="t2">e</tspan><tspan  y="0" class="t2">.</tspan><tspan  y="0" class="t2">.</tspan><tspan  y="0" class="t2">.
+</tspan>
+	</text>
+	<text id="Line3" style="transform: matrix(1,0,0,1,18,247)" >
+		<tspan x="0" y="0" class="t2">S</tspan><tspan  y="0" class="t2">o</tspan><tspan  y="0" class="t2">r</tspan><tspan  y="0" class="t2">t</tspan><tspan  y="0" class="t2">i</tspan><tspan  y="0" class="t2">n</tspan><tspan  y="0" class="t2">g</tspan><tspan  y="0" class="t2"> </tspan><tspan  y="0" class="t2">f</tspan><tspan  y="0" class="t2">i</tspan><tspan  y="0" class="t2">l</tspan><tspan  y="0" class="t2">e</tspan><tspan  y="0" class="t2">s</tspan><tspan  y="0" class="t2">.</tspan><tspan  y="0" class="t2">.</tspan><tspan  y="0" class="t2">.
+</tspan>
+	</text>
+	<text id="Line2" style="transform: matrix(1,0,0,1,18,185)" >
+		<tspan x="0" y="0" class="t2">F</tspan><tspan  y="0" class="t2">o</tspan><tspan  y="0" class="t2">u</tspan><tspan  y="0" class="t2">n</tspan><tspan  y="0" class="t2">d</tspan><tspan  y="0" class="t2"> </tspan><tspan  y="0" class="t2">2</tspan><tspan  y="0" class="t2">7</tspan><tspan  y="0" class="t2"> </tspan><tspan  y="0" class="t2">n</tspan><tspan  y="0" class="t2">e</tspan><tspan  y="0" class="t2">w</tspan><tspan  y="0" class="t2"> </tspan><tspan  y="0" class="t2">v</tspan><tspan  y="0" class="t2">e</tspan><tspan  y="0" class="t2">r</tspan><tspan  y="0" class="t2">s</tspan><tspan  y="0" class="t2">i</tspan><tspan  y="0" class="t2">o</tspan><tspan  y="0" class="t2">n</tspan><tspan  y="0" class="t2">s</tspan><tspan  y="0" class="t2">.</tspan><tspan  y="0" class="t2">
+</tspan>
+	</text>
+	<text id="Line1" style="transform: matrix(1,0,0,1,18,123)" >
+		<tspan x="0" y="0" class="t2">C</tspan><tspan  y="0" class="t2">h</tspan><tspan  y="0" class="t2">e</tspan><tspan  y="0" class="t2">c</tspan><tspan  y="0" class="t2">k</tspan><tspan  y="0" class="t2">i</tspan><tspan  y="0" class="t2">n</tspan><tspan  y="0" class="t2">g</tspan><tspan  y="0" class="t2"> </tspan><tspan  y="0" class="t2">w</tspan><tspan  y="0" class="t2">a</tspan><tspan  y="0" class="t2">t</tspan><tspan  y="0" class="t2">c</tspan><tspan  y="0" class="t2">h</tspan><tspan  y="0" class="t2"> </tspan><tspan  y="0" class="t2">f</tspan><tspan  y="0" class="t2">o</tspan><tspan  y="0" class="t2">l</tspan><tspan  y="0" class="t2">d</tspan><tspan  y="0" class="t2">e</tspan><tspan  y="0" class="t2">r</tspan><tspan  y="0" class="t2">s</tspan><tspan  y="0" class="t2">.</tspan><tspan  y="0" class="t2">.</tspan><tspan  y="0" class="t2">.</tspan><tspan  y="0" class="t2">
+</tspan>
+	</text>
+	<text id="Title" style="transform: matrix(1,0,0,1,18,52)" >
+		<tspan x="0" y="0" class="t2 t6">V</tspan><tspan  y="0" class="t2 t6">F</tspan><tspan  y="0" class="t2 t6">X</tspan><tspan  y="0" class="t2 t6">_</tspan><tspan  y="0" class="t2 t6">A</tspan><tspan  y="0" class="t2 t6">u</tspan><tspan  y="0" class="t2 t6">t</tspan><tspan  y="0" class="t2 t6">o</tspan><tspan  y="0" class="t2 t6">m</tspan><tspan  y="0" class="t2 t6">a</tspan><tspan  y="0" class="t2 t6">t</tspan><tspan  y="0" class="t2 t6">i</tspan><tspan  y="0" class="t2 t6">o</tspan><tspan  y="0" class="t2 t6">n</tspan><tspan  y="0" class="t2 t6">.</tspan><tspan  y="0" class="t2 t6">p</tspan><tspan  y="0" class="t2 t6">y
+</tspan>
+	</text>
+	<path id="Red" class="s3" d="m1239 55c-10 0-18-8-18-18 0-10 8-18 18-18 10 0 18 8 18 18 0 10-8 18-18 18z"/>
+	<path id="Yellow" class="s4" d="m1189 55c-10 0-18-8-18-18 0-10 8-18 18-18 10 0 18 8 18 18 0 10-8 18-18 18z"/>
+	<path id="Green" class="s5" d="m1138 55c-10 0-18-8-18-18 0-10 8-18 18-18 10 0 18 8 18 18 0 10-8 18-18 18z"/>
+</svg>

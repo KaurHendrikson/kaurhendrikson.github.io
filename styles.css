@@ -97,8 +97,12 @@ a {
     scroll-margin-top: 20vh;
 }
 
-.section {
-    padding-bottom: 8rem;
+.divider {
+    /* Horizontal line */
+    width: 15vw;
+    height: 1px;
+    background-color: #ffffffe1;
+    margin: 8rem 0;
 }
 
 img {
@@ -210,7 +214,7 @@ a {
 }
 
 /* Fade in */
-a:not(.btn)::after {
+a.underlining::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -222,8 +226,8 @@ a:not(.btn)::after {
     transition: opacity 300ms, transform 300ms;
 }
 
-a:not(.btn).active::after,
-a:not(.btn):hover::after {
+a.underlining.active::after,
+a.underlining:hover::after {
     /* Underline */
     opacity: 1;
     transform: translate3d(0, 0.2em, 0);
@@ -240,6 +244,10 @@ a.btn {
     font-size: 1.5em;
     text-shadow: 1px 1px 1px #00000030;
     transition: transform var(--btn-anim-speed);
+
+    /* Center contents vertically */
+    display: flex;
+    align-items: center;
 }
 
 a.btn:hover {
@@ -273,7 +281,25 @@ a.btn:hover {
 #contact {
     scroll-margin-top: 0;
     /* Extra space after contact */
-    height: 75vh;
+    height: 90vh;
+}
+
+.dctl-thumbnail img {
+    border-radius: 0.5rem;
+    transition: transform var(--btn-anim-speed);
+}
+
+.dctl-thumbnail:hover img {
+    transform: scale(var(--btn-anim-size));
+}
+
+#store-logo {
+    height: 1.5rem;
+    padding-right: 0.5rem;
+}
+
+.terminal-animated {
+    width: 100%;
 }
 
 lite-vimeo {
