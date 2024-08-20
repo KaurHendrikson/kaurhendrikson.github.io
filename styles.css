@@ -284,6 +284,10 @@ a.btn:hover {
     height: 90vh;
 }
 
+#headshot {
+    width: 10rem;
+}
+
 .dctl-thumbnail img {
     border-radius: 0.5rem;
     transition: transform var(--btn-anim-speed);
