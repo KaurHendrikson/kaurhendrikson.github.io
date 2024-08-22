@@ -306,6 +306,35 @@ a.btn:hover {
     width: 100%;
 }
 
+.image-wrapper {
+    display: grid;
+}
+
+.image-wrapper img {
+    grid-area: 1 / 1 / 2 / 2;
+    border-radius: 0.5em;
+}
+
+.image-wrapper img:nth-last-child(1) {
+    clip-path: inset(0 100% 0 0);
+    animation: wipe 4s ease-in-out infinite;
+}
+
+@keyframes wipe {
+    5% {
+        clip-path: inset(0 0 0 100%);
+    }
+    45% {
+        clip-path: inset(0 0 0 0);
+    }
+    55% {
+        clip-path: inset(0 0 0 0);
+    }
+    95% {
+        clip-path: inset(0 0 0 100%);
+    }
+}
+
 lite-vimeo {
     height: calc(760px / 1.78);
     width: 760px;
