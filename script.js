@@ -32,8 +32,6 @@ window.addEventListener(
             }
         });
 
-        console.log(currentSection);
-
         links.forEach((link) => {
             link.classList.remove('active');
             if (link.getAttribute('href').substring(1) === currentSection) {
@@ -65,3 +63,5 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(section);
     });
 });
+
+console.log('Hello, there! 👋');
