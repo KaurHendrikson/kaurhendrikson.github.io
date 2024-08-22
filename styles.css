@@ -35,11 +35,23 @@ body {
     z-index: 0;
     filter: blur(3px);
     opacity: 0.75;
-    background-image: url('./public/background.webp');
+    background-image: url('./public/background/background-640.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+}
+
+@media (min-width: 800px) {
+    #background {
+        background-image: url('./public/background/background-1280.webp');
+    }
+}
+
+@media (min-width: 1200px) {
+    #background {
+        background-image: url('./public/background/background-1920.webp');
+    }
 }
 
 h1,
