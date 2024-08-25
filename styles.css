@@ -318,6 +318,12 @@ a.btn:hover {
     width: 100%;
 }
 
+#trainer-link {
+    color: #ff5f5c;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 lite-vimeo {
     height: calc(760px / 1.78);
     width: 760px;
