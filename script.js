@@ -64,4 +64,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+// Automatically update copyright year
+document.getElementById(
+    'copyright'
+).textContent = `© ${new Date().getFullYear()} Kaur Hendrikson`;
+
 console.log('Hello, there! 👋');
