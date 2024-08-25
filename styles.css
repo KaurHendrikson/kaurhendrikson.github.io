@@ -146,10 +146,13 @@ img {
     transition: transform var(--btn-anim-speed);
 }
 
-.social-icon {
-    max-height: 2em;
+.invert-black-svg {
     filter: invert(94%) sepia(0%) saturate(0%) hue-rotate(301deg)
         brightness(106%) contrast(107%);
+}
+
+.social-icon {
+    max-height: 2em;
 }
 
 .social-link:hover {
@@ -309,16 +312,22 @@ a.btn:hover {
     transform: scale(var(--btn-anim-size));
 }
 
-#store-logo {
+.button-icon {
     height: 1.5rem;
     padding-right: 0.5rem;
+}
+
+.in-text-icon {
+    height: 1.5rem;
+    padding-right: 0.5rem;
+    transform: translateY(0.2rem);
 }
 
 .terminal-animated {
     width: 100%;
 }
 
-#trainer-link {
+.red-link {
     color: #ff5f5c;
     text-decoration: underline;
     cursor: pointer;
