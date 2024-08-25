@@ -291,7 +291,7 @@ a.btn:hover {
 }
 
 #contact {
-    scroll-margin-top: 0;
+    scroll-margin-top: -300px;
     /* Extra space after contact */
     height: 90vh;
 }
