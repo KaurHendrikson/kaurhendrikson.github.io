@@ -344,7 +344,7 @@ lite-vimeo.ltv-activated {
 
 /* Mobile */
 @media (max-width: 800px) {
-    body {
+    #top-bar {
         font-size: 75%;
     }
 
