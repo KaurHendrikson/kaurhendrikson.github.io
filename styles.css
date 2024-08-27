@@ -333,13 +333,9 @@ a.btn:hover {
     cursor: pointer;
 }
 
-lite-vimeo {
+#vimeo-player {
     height: calc(760px / 1.78);
     width: 760px;
-}
-
-lite-vimeo.ltv-activated {
-    background-image: none !important;
 }
 
 /* Mobile */
@@ -358,14 +354,14 @@ lite-vimeo.ltv-activated {
         width: 7rem;
     }
 
-    lite-vimeo {
+    #vimeo-player {
         height: calc(560px / 1.78);
         width: 560px;
     }
 }
 
 @media (max-width: 600px) {
-    lite-vimeo {
+    #vimeo-player {
         height: calc(360px / 1.78);
         width: 360px;
     }
