@@ -22,8 +22,12 @@ body {
 }
 
 body {
-    max-width: 760px;
-    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    user-select: none;
 }
 
 #background {
@@ -40,6 +44,15 @@ body {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+}
+
+#page-content {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.blurred {
+    filter: blur(3px);
 }
 
 @media (min-width: 800px) {
@@ -338,6 +351,76 @@ a.btn:hover {
     width: 760px;
 }
 
+#grading-portfolio {
+    margin-top: 15vh;
+}
+
+#grading-portfolio > .container {
+    gap: 3rem;
+}
+
+.portfolio-card {
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.image-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: block;
+    transition: filter 0.3s ease;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.project-title {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+}
+
+.project-subtitle {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 100;
+}
+
+.portfolio-card.hover img,
+.portfolio-card:hover img {
+    filter: blur(2px);
+}
+
+.portfolio-card.hover .overlay,
+.portfolio-card:hover .overlay {
+    opacity: 1;
+}
+
 /* Mobile */
 @media (max-width: 800px) {
     #top-bar {
@@ -389,5 +472,89 @@ a.btn:hover {
     }
     60% {
         transform: translateY(5px);
+    }
+}
+
+#carousel.hidden {
+    display: none;
+}
+
+#carousel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#carousel-content {
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+    display: flex;
+    align-items: center;
+}
+
+#carousel-image {
+    width: 90vw;
+    height: 90vh;
+    max-width: max(90vw, 90vh);
+    max-height: max(90vw, 90vh);
+    object-fit: contain;
+    position: relative;
+}
+
+.carousel-button {
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.3);
+    /* shadow */
+    text-shadow: 1px 1px 1px #00000050;
+    font-size: 4em;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    transition: color 0.3s;
+}
+
+.carousel-button:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#carousel-prev {
+    left: 10px; /* Adjusted to be on the image */
+}
+
+#carousel-next {
+    right: 10px; /* Adjusted to be on the image */
+}
+
+#carousel-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 3em;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .carousel-button {
+        font-size: 1.5em;
+        padding: 8px;
+    }
+
+    #carousel-prev {
+        left: 5px;
+    }
+
+    #carousel-next {
+        right: 5px;
     }
 }
