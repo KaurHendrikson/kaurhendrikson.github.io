@@ -552,7 +552,7 @@ a.btn:hover {
 
 @media (max-width: 600px) {
     .carousel-button {
-        font-size: 8em;
+        font-size: 6em;
         padding: 8px;
     }
 
