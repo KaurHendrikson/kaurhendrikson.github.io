@@ -4,23 +4,25 @@ document.getElementById(
 ).textContent = `© ${new Date().getFullYear()} Kaur Hendrikson`;
 
 // Emulate hover on portfolio cards that are in the middle of the screen
-document.addEventListener('DOMContentLoaded', () => {
+function emulatePortfolioCardHover() {
     const portfolioCards = document.querySelectorAll('.portfolio-card');
-    const pageContent = document.getElementById('page-content');
 
-    window.addEventListener('scroll', () => {
-        portfolioCards.forEach((card) => {
-            const cardRect = card.getBoundingClientRect();
-            if (
-                cardRect.top < window.innerHeight / 2 &&
-                cardRect.bottom > window.innerHeight / 2
-            ) {
-                card.classList.add('hover');
-            } else {
-                card.classList.remove('hover');
-            }
-        });
+    portfolioCards.forEach((card) => {
+        const cardRect = card.getBoundingClientRect();
+        if (
+            cardRect.top < window.innerHeight / 2 &&
+            cardRect.bottom > window.innerHeight / 2
+        ) {
+            card.classList.add('hover');
+        } else {
+            card.classList.remove('hover');
+        }
     });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    emulatePortfolioCardHover();
+    window.addEventListener('scroll', () => emulatePortfolioCardHover());
 });
 
 // Carousel functionality
