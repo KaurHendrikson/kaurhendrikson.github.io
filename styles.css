@@ -398,6 +398,12 @@ a.btn:hover {
     pointer-events: none;
 }
 
+@media (max-width: 800px) {
+    .overlay {
+        font-size: 0.7em;
+    }
+}
+
 .project-title {
     color: white;
     font-size: 3em;
@@ -546,7 +552,7 @@ a.btn:hover {
 
 @media (max-width: 600px) {
     .carousel-button {
-        font-size: 1.5em;
+        font-size: 8em;
         padding: 8px;
     }
 
