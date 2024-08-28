@@ -146,12 +146,6 @@ img {
     transition: transform var(--btn-anim-speed);
 }
 
-@media (max-width: 800px) {
-    .social-link {
-        padding: 0.75rem;
-    }
-}
-
 .invert-black-svg {
     filter: invert(94%) sepia(0%) saturate(0%) hue-rotate(301deg)
         brightness(106%) contrast(107%);
