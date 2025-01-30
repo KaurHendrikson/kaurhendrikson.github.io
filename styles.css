@@ -564,3 +564,17 @@ a.btn:hover {
         right: 5px;
     }
 }
+
+#logos-container {
+    background: #fff;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+#logos-container img {
+    transition: transform var(--btn-anim-speed);
+}
+
+#logos-container img:hover {
+    transform: scale(var(--btn-anim-size));
+}
