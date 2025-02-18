@@ -580,7 +580,11 @@ a.btn:hover {
 }
 
 .logos-container:not(.horizontal) {
-    max-width: 50%;
+    max-width: 70%;
+}
+
+.logos-container > a.f1.m1 > img {
+    width: 70%;
 }
 
 .logos-container:not(.horizontal) {
