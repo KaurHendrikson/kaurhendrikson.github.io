@@ -565,27 +565,38 @@ a.btn:hover {
     }
 }
 
-#logos-container {
+.logos-container {
     background: #fff;
     border-radius: 0.5rem;
     margin-top: 1rem;
 }
 
-#logos-container img {
+.logos-container img {
     transition: transform var(--btn-anim-speed);
 }
 
-#logos-container img:hover {
+.logos-container img:hover {
     transform: scale(var(--btn-anim-size));
 }
 
+.logos-container:not(.horizontal) {
+    max-width: 50%;
+}
+
+.logos-container:not(.horizontal) {
+    display: none;
+}
+
 @media (max-width: 600px) {
-    #logos-container,
     #store-buttons {
         flex-direction: column;
     }
 
-    #logos-container {
-        width: 50%;
+    .logos-container.horizontal {
+        display: none;
+    }
+
+    .logos-container:not(.horizontal) {
+        display: flex;
     }
 }
