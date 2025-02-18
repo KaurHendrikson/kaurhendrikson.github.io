@@ -578,3 +578,14 @@ a.btn:hover {
 #logos-container img:hover {
     transform: scale(var(--btn-anim-size));
 }
+
+@media (max-width: 600px) {
+    #logos-container,
+    #store-buttons {
+        flex-direction: column;
+    }
+
+    #logos-container {
+        width: 50%;
+    }
+}
