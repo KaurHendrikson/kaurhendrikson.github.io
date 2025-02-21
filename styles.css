@@ -346,6 +346,11 @@ a.btn:hover {
     cursor: pointer;
 }
 
+.white-link {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 #vimeo-player {
     height: calc(760px / 1.78);
     width: 760px;
@@ -583,10 +588,6 @@ a.btn:hover {
     max-width: 70%;
 }
 
-.logos-container > a.f1.m1 > img {
-    width: 70%;
-}
-
 .logos-container:not(.horizontal) {
     display: none;
 }
@@ -607,5 +608,9 @@ a.btn:hover {
     #landing > * {
         position: relative;
         top: -3em;
+    }
+
+    .logos-container > a.f1.m1 > img {
+        width: 70%;
     }
 }
