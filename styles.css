@@ -172,6 +172,12 @@ img {
     transform: scale(var(--btn-anim-size));
 }
 
+.section-icon {
+    max-height: 1em;
+    padding-right: 0.3em;
+    transform: translateY(0.08em);
+}
+
 #top-bar {
     /* Fixed to the top, full width */
     position: fixed;
